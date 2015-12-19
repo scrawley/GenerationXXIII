@@ -1,0 +1,507 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Usage code from Fonts.com */
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=41a28de4-cf1e-4148-b832-01f7561a1bea");
+@font-face{
+font-family:"Kamerik 105 W00 Light";
+src:url("7abefda9-0b2b-4a2e-a083-3b15a31fc8b7.eot?#iefix");
+src:url("7abefda9-0b2b-4a2e-a083-3b15a31fc8b7.eot?#iefix") format("eot"),url("f2b74898-554c-4f8a-9630-29ec084a6bcd.woff") format("woff"),url("84dc2692-4b16-4ef7-8e02-40ac527ecbfa.ttf") format("truetype"),url("2a93bd00-f9c9-4c9a-b7f1-aec181d34956.svg#2a93bd00-f9c9-4c9a-b7f1-aec181d34956") format("svg");
+}
+@font-face{
+font-family:"Kamerik 105 W00 Bold";
+src:url("74827472-2a7a-4415-bb50-ba57cbbd6951.eot?#iefix");
+src:url("74827472-2a7a-4415-bb50-ba57cbbd6951.eot?#iefix") format("eot"),url("66223a5f-4163-496f-8c10-3fe1721dd6c3.woff") format("woff"),url("74e31626-df9c-4765-99a3-f5ad82f2d37f.ttf") format("truetype"),url("3cb7c6ce-fc7e-4bfb-a537-a3d6a84f44c4.svg#3cb7c6ce-fc7e-4bfb-a537-a3d6a84f44c4") format("svg");
+}
+@font-face{
+font-family:"Kamerik 105 W00 Book";
+src:url("59cdeffa-66f3-4ff2-a5ea-93171c8b6082.eot?#iefix");
+src:url("59cdeffa-66f3-4ff2-a5ea-93171c8b6082.eot?#iefix") format("eot"),url("0ddaedd8-7f3e-4d03-bf6e-a6ecdbf785d1.woff") format("woff"),url("e457017b-d59a-4731-b038-a783768d1f25.ttf") format("truetype"),url("180da547-1ed1-4e15-a96f-49edcdcd8626.svg#180da547-1ed1-4e15-a96f-49edcdcd8626") format("svg");
+}
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* GENERATIONXXIII */
+
+
+.navbar {
+	background-color:rgba(255,255,255,.8);
+	-webkit-box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.71);
+	-moz-box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.71);
+	box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.71);
+	font-family:"Kamerik 105 W00 Book";
+}
+
+.nav_text {
+	margin-top:20px;	
+}
+
+.nav_text > .col-sm-3 > h4 {
+	letter-spacing:2px;	
+	font-size:18px;
+}
+
+.col-sm-offset-11 a {
+	color:black;
+	padding-left:15px;
+}
+
+.col-sm-offset-11 a:hover {
+	color:#86D5C8;
+	text-decoration:none;
+}
+
+.col-sm-offset-11 a:active {
+	color:black;
+}
+
+
+.active {
+	color:white;
+}
+
+.fixed {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:500;
+	margin-top:350px;
+	margin-left:1100px;
+	font-size:25px;
+	color:rgba(173,244,228,1.00);
+	font-family:"Kamerik 105 W00 Book";
+	line-height:35px;
+}
+
+.fixed > .row > .col-sm-1 > a {
+	color:rgba(0,0,0,1.00);	
+}
+
+.fixed > .row > .col-sm-1 > a:hover {
+	color:rgba(255,255,255,1.00);
+	text-decoration:none;	
+}
+
+.float {
+	float:left;
+}
+
+
+/* section 1 */
+#section-1 {
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+    background-size:cover;	
+}
+
+  #section-1 h1{
+	  	font-family:"Kamerik 105 W00 Book";
+       font-size:20px;
+		text-align:center;
+		color:#2D2D2D;
+		letter-spacing:2px;
+}
+
+  #section-1 h2{
+	  	font-family:"Kamerik 105 W00 Book";
+       font-size:20px;
+		text-align:center;
+		line-height:25px;
+		color:black;
+		letter-spacing:2px;
+		margin-top:20px;
+}
+
+.arrow {
+	margin-top:520px;
+	margin-left:-145px;
+}
+
+.arrow > h2 {
+	 font-family:"Kamerik 105 W00 Bold";
+}
+
+
+.scroll {
+	padding-top:-50px;
+	margin-left:-30px;	
+}
+
+
+/* section 2 */
+#section-2{
+	 background:url(../images/tyson_reduced_2.jpg) 50% 0 no-repeat;
+    background-size:cover;
+	font-family:"Kamerik 105 W00 Light";
+	
+}
+
+#section-2 h1 {
+	font-size:90px;
+	color:white;
+	letter-spacing:1px;	
+	line-height:90px;
+	text-align:center;
+	
+}
+
+.section-2-text {
+	margin-top:200px;
+}
+
+.arrow_2 {
+	margin-top:375px;
+	padding-left:95px;
+	position:fixed;
+	top:415px;
+	left:6px;
+	color:white;
+}
+
+.process {
+	padding-left:35px;
+margin-top:425px;
+	position:fixed;
+	top:423px;
+	color:white;
+	font-size:20px;
+	font-family:"Kamerik 105 W00 book";
+}
+.arrow_2 > h2 {
+	font-family:"Kamerik 105 W00 book";
+}
+
+
+/* section 3 ANIMATION SECTION */
+#section-3 {
+ 	background:url(../images/patternbg_3.jpg);
+	background-size:cover;
+}
+
+.processsteps {
+	margin-top:170px;
+	text-align:center;
+	font-family:"Kamerik 105 W00 Book";
+	font-size:30px;
+	color:#7c7c7c;
+	letter-spacing:1px;
+}
+
+
+
+
+.receive h3 {
+	font-size:18px;
+	line-height:20px;
+	letter-spacing:1px;
+	text-align:center;
+}
+
+.order h3 {
+	font-size:18px;
+	line-height:20px;
+	letter-spacing:1px;
+	text-align:center;
+}
+
+.wait h3 {
+	font-size:18px;
+	line-height:20px;
+	letter-spacing:1px;
+	text-align:center;
+}
+
+.arrow_3 {
+	margin-top:455px;
+	padding-left:140px;
+	position:fixed;
+	top:345px;
+	left:6px;
+	color:white;
+}
+
+.themodels {
+	padding-left:110px;
+margin-top:505px;
+	position:fixed;
+	top:345px;
+	color:#7C7C7C;
+	font-size:20px;
+	font-family:"Kamerik 105 W00 book";
+}
+
+
+/* section 4 */
+
+#section-4 {
+	font-family:"Kamerik 105 W00 Book";
+}
+
+.ari{
+	 position:relative;
+	 top:0;
+	 left:0;
+	 z-index:1;
+     background-size:cover;
+	 width:100%;
+}
+
+.client_models_headline {
+	font-family:"Kamerik 105 W00 Book";
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:20px;
+	letter-spacing:2px;
+}
+
+.simply-scroll {
+	width:2500px;
+	height:180px;
+	margin-bottom:15px;
+}
+
+.simply-scroll .simply-scroll-clip {
+		width: 2500px;
+		height: 180px;
+	}
+	
+.simply-scroll .simply-scroll-list li {
+			float: left;
+			width: 150px;
+			height: 180px;
+		}
+
+.simply-scroll-container { /* Container DIV - automatically generated */
+	position: relative;
+}
+
+.image_one {
+	background:url(../images/gen_1.png);
+}
+
+.image_one:hover {
+	background:url(../images/gen_1_hover.png);
+}
+
+.image_two {
+	background:url(../images/gen_2.png);
+}
+
+.image_two:hover {
+	background:url(../images/gen_2_hover.png);
+}
+
+.image_three{
+	background:url(../images/gen_3.png);
+}
+
+.image_three:hover {
+	background:url(../images/gen_3_hover.png);
+}
+
+.image_eleven {
+	background:url(../images/gen_11.png);
+}
+
+.image_eleven:hover {
+	background:url(../images/gen_11_hover.png);
+}
+
+.image_twelve {
+	background:url(../images/gen_12.png);
+}
+
+.image_twelve:hover {
+	background:url(../images/gen_12_hover.png);
+}
+
+.image_four {
+	background:url(../images/gen_4.png);
+}
+
+.image_four:hover {
+	background:url(../images/gen_4_hover.png);
+}
+
+.image_five {
+	background:url(../images/gen_5.png);
+}
+
+.image_five:hover {
+	background:url(../images/gen_5_hover.png);
+}
+
+.image_seven {
+	background:url(../images/gen_7.png);
+}
+
+.image_seven:hover {
+	background:url(../images/gen_7_hover.png);
+}
+
+.popover {
+  position: absolute;
+  top: 0;
+  left: 300;
+  z-index: 1010;
+  display: none;
+  max-width: 276px;
+  height:250px;
+  padding: 1px;
+  text-align: left;
+  white-space: normal;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.2); 
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background-clip: padding-box;
+  font-family:"Kamerik 105 W00 Light";
+}
+
+
+/* section 5 */
+
+#section-5 {
+	background:url(../images/dnadbhelix.png) 50% 0 no-repeat;
+	 background-size:cover;	
+}
+
+.areyouready {
+	margin-top:250px;
+	text-align:center;
+	line-height:90px;
+	letter-spacing:5px;
+}
+
+.areyouready > h1 {
+	font-size:90px;
+	font-family:"Kamerik 105 W00 Light";	
+	color:#c5ede3;
+}
+
+.arrow_5 {
+	margin-top:276px;
+	padding-left:125px;
+	font-family:"Kamerik 105 W00 Book";	
+	color:white;
+	letter-spacing:2px;
+}
+
+.comingsoon {
+	margin-top:30px;
+	text-align:center;
+	font-size:20px;
+	color:#c5ede3;
+	margin-left:15px;
+	padding-bottom:50px;
+	font-family:"Kamerik 105 W00 Book";	
+}
+
+.homelink {
+	margin-left:30px;
+}
+
+/* section 6 
+
+
+
+#section-6 {
+		background: rgba(180,180,180,1.00);
+	background: -moz-linear-gradient(top, rgba(180,180,180,1.00) 0%, rgba(255,255,255,1.00) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(180,180,180,1.00)), color-stop(100%, rgba(255,255,255,1.00)));
+	background: -webkit-linear-gradient(top, rgba(180,180,180,1.00) 0%, rgba(255,255,255,1.00) 100%);
+	background: -o-linear-gradient(top, rgba(180,180,180,1.00) 0%, rgba(255,255,255,1.00) 100%);
+	background: -ms-linear-gradient(top, rgba(180,180,180,1.00) 0%, rgba(255,255,255,1.00) 100%);
+	background: linear-gradient(to bottom, rgba(180,180,180,1.00) 0%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );	
+}*/
+
+#section-6 {
+		background:url(../images/patternbg_3.jpg);
+	background-size:cover;
+}
+
+#countdown {
+	margin-top:350px;
+	padding-top:20px;
+	text-align:center;
+	font-size:100px;
+	font-family:"Kamerik 105 W00 Light";
+	color:#7c7c7c;
+}
+
+.releasedate {
+	margin-top:350px;
+	padding-top:0;
+	font-size:25px;
+	font-family:"Kamerik 105 W00 Book";
+	text-align:center;
+	color:#7c7c7c;
+}
+
+.bold {
+	font-family:"Kamerik 105 W00 Book";
+}
+
+/* Footer */
+
+footer {
+	background: rgba(196,196,196,1.00);
+	font-family:"Kamerik 105 W00 Light";
+	font-size: 12px;
+	padding-top:15px;
+	margin-top:350px;
+	height:50px;
+	letter-spacing:1px;	
+}
+
