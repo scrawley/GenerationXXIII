@@ -84,17 +84,17 @@ table {
 	font-size:18px;
 }
 
-.col-sm-offset-11 a {
+.col-sm-offset-10 a {
 	color:black;
 	padding-left:15px;
 }
 
-.col-sm-offset-11 a:hover {
+.col-sm-offset-10 a:hover {
 	color:#86D5C8;
 	text-decoration:none;
 }
 
-.col-sm-offset-11 a:active {
+.col-sm-offset-10 a:active {
 	color:black;
 }
 
